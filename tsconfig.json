@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments":true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "noLib": false,
+    "target": "es2018",
+    "sourceMap": true,
+    "lib": ["esnext", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+  },
+  "exclude": [
+    "node_modules",
+    "dist/**",
+    "**/__tests__",
+  ]
+}
