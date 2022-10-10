@@ -1,0 +1,54 @@
+卷 Windows  的文件夹 PATH 列表
+卷序列号为 F46B-A823
+C:.
+│  .gitignore
+│  .npmrc
+│  list.txt
+│  package.json
+│  pnpm-lock.yaml
+│  pnpm-workspace.yaml
+│  tsconfig.json
+│  
+├─build
+│      gulpfile.ts
+│      
+├─node_modules           
+├─packages
+│  ├─components
+│  │  │  package.json
+│  │  │  
+│  │  ├─node_modules
+│  │  │  └─@element-plus
+│  │  └─v-form
+│  │      │  index.ts
+│  │      │  
+│  │      └─src
+│  │              README.md
+│  │              v-form.ts
+│  │              v-form.vue
+│  │              
+│  ├─theme-chalk
+│  │  │  package.json
+│  │  │  
+│  │  └─src
+│  │      │  form.scss
+│  │      │  index.scss
+│  │      │  
+│  │      └─mixins
+│  │              config.scss
+│  │              mixins.scss
+│  │              
+│  └─utils
+│          package.json
+│          with-install.ts  
+├─play
+│  │  app.vue
+│  │  index.html
+│  │  main.ts
+│  │  package.json
+│  │  vite.config.ts
+│  │  
+│  └─node_modules            
+└─typings
+        vue-shim.d.ts
+        
